@@ -1,0 +1,20 @@
+questions:
+  - id: 1
+    text: "Ты проснулся в темной комнате. Что делать?"
+    answers:
+      - id: 11
+        text: "Осмотреться"
+        nextQuestion: 2
+      - id: 12
+        text: "Лечь спать"
+        nextQuestion: -1 # Проигрыш
+
+  - id: 2
+    text: "Ты видишь дверь. Открыть её?"
+    answers:
+      - id: 21
+        text: "Да"
+        nextQuestion: 3
+      - id: 22
+        text: "Нет"
+        nextQuestion: -1 # Проигрыш
