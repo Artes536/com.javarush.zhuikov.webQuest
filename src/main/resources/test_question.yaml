@@ -1,0 +1,20 @@
+questions:
+  - id: 1
+    text: "Тест 1"
+    answers:
+      - id: 11
+        text: "Ответ 1"
+        nextQuestion: 2
+      - id: 12
+        text: "Ответ 2"
+        nextQuestion: -1
+
+  - id: 2
+    text: "Тест 2"
+    answers:
+      - id: 21
+        text: "Ответ 1"
+        nextQuestion: -2
+      - id: 22
+        text: "Ответ 2"
+        nextQuestion: -1

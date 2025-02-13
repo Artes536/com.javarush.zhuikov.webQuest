@@ -1,11 +1,9 @@
 package com.javarush.zhuikov.webquest.entity;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
@@ -14,6 +12,6 @@ public class Answer {
 
     Integer id;
     String text;
-    Integer nextQuestionId;
+    Integer nextQuestion;
 
 }

@@ -1,13 +1,11 @@
 package com.javarush.zhuikov.webquest.entity;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.util.List;
 
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE)
